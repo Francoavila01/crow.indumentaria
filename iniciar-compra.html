@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>indumentariacrow.com.ar</title>
+    <!-- css bootstrapt -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
+    <!-- css -->
+    <link rel="stylesheet" href="css/inicio-de-compra.css">
+    
+    <script>
+      window.scroll({
+      top: 2500, 
+      left: 0, 
+      behavior: 'smooth'
+     });
+    </script>
+  
+</head>
+<body>
+    <header>
+     <nav class="navbar navbar-expand-lg navbar-light bg-light  d-flex">
+        <div class="container-fluid ">
+            <img src="https://i.pinimg.com/originals/a7/57/df/a757dfd600c04419f45c3252bd4d0cf4.jpg" class="crowimg a" alt="">
+          <a class="navbar-brand">indumentaria.crow</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 200px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="productos.html">PRODUCTOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">CONTACTOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="politicas.html">POLITICAS</a>
+              </li>
+             </ul>
+              <a  href="carrito.html" class="a"><img src="https://cdn-icons-png.flaticon.com/512/1170/1170627.png" alt="carritoimg" width="23" height="23" title="carrito"></a>
+            
+              
+
+  <button type="button" class="btn btn-light mx-1" data-bs-toggle="modal" data-bs-target="#cuotas">
+    <img src="https://cdn-icons.flaticon.com/png/512/3171/premium/3171065.png?token=exp=1636753569~hmac=252753b4328fd90c339892012a5e84b3" alt="usuarioimg"  width="23" height="23">
+ </button>
+
+
+
+     <!--Modal: Login / Register Form-->
+<!-- MODAL 1-->
+<div class="modal fade" id="cuotas" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable   ">
+  <div class="modal-content">
+  
+  
+  <ul class="nav nav-tabs md-tabs tabs-2 light-blue darken-3" role="tablist">
+    <li class="nav-item">
+      <a class="btn border textmin" data-bs-target="#" data-bs-toggle="modal" ></i>
+       Iniciar sesion </a>
+    </li>
+    <li class="nav-item">
+      <a class="btn text-primary textmin " data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal"><i class="fas fa-user-plus mr-1"></i>
+        Registrate</a>
+    </li>
+  
+  </ul>
+  
+  
+     <!-- Tab panels -->
+     <div class="tab-content">
+      <!--Panel 7-->
+      <div class="tab-pane fade in show active" id="panel7" role="tabpanel">
+  
+        <!--Body-->
+        <div class="modal-body mb-1">
+          <div class="md-form form-sm mb-5">
+            <i class="fas fa-envelope prefix"></i>
+            <label data-error="wrong" data-success="right" for="modalLRInput10">correo electronico</label>
+            <input type="email" id="modalLRInput10" class="form-control form-control-sm validate">
+           
+          </div>
+  
+          <div class="md-form form-sm mb-4 ">
+            <i class="fas fa-lock prefix"></i>
+            <label data-error="wrong" data-success="right" for="modalLRInput11">contraseña</label>
+            <input type="password" id="modalLRInput11" class="form-control form-control-sm validate">
+            
+          </div>
+          <div class="text-center mt-2">
+            <button class="btn btn-dark">Iniciar<i class="fas fa-sign-in ml-1"></i></button>
+          </div>
+          <div class="text-center my-3">
+            <input type="checkbox" name="noCerrarSesion" value="true" checked="checked" data-bind="checked:noCerrarSesion">
+            <span data-bind="i18nText:'ventana_login.no_cerrar_sesion'">No cerrar sesión</span>
+            <br>
+            <button class="mt-3 googleimg">
+                <img src="https://cdn-icons-png.flaticon.com/512/281/281764.png" height="30" width="30" alt="">
+                <a class="text-dark c" href="">iniciar sesion</a>
+            </button>
+            <button class="facebookimg">
+                <img src="https://cdn-icons-png.flaticon.com/512/1384/1384053.png" height="30" width="30" alt="">
+                <a class="text-dark c" href="">iniciar sesion</a>
+            </button>
+          </div>
+        </div>
+        <!--Footer-->
+        <div class="modal-footer">
+          <div class="col-9 options text-center text-md-right mt-1">
+            <p>¿No eres miembro? <a data-bs-toggle="modal" data-bs-target="#exampleModalToggle2" data-bs-dismiss="modal" class="blue-text">Únete</a></p>
+            <p>¿Olvidó <span> <a href="#" class="blue-text">contraseña</a></span>?</p>
+          </div>
+          <button type="button" class="btn btn-dark" data-bs-dismiss="modal"> Cerrar</button>
+        </div>
+  
+      </div>
+  
+    </div>
+  
+    </div>
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  </div>
+  
+  
+  <!-- MODAL 2 -->
+  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+  <div class="modal-dialog ">
+  <div class="modal-content">
+  <div class="modal-content">
+  
+  
+    <ul class="nav nav-tabs md-tabs tabs-2 light-blue darken-3" role="tablist">
+      <li class="nav-item">
+        <a class="btn text-primary textmin" data-bs-target="#cuotas" data-bs-toggle="modal"data-bs-dismiss="modal" ></i>
+          Iniciar sesion</a>
+      </li>
+      <li class="nav-item">
+        <a class="btn text-dark border textmin" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"><i class="fas fa-user-plus mr-1"></i>
+          Registrate</a>
+      </li>
+
+    </ul>
+  
+  
+    <div class="modal-body">
+      <div class="md-form form-sm mb-5">
+        <i class="fas fa-envelope prefix"></i>
+        <label data-error="wrong" data-success="right" for="modalLRInput12">Email</label>
+        <input type="email" id="modalLRInput12" class="form-control form-control-sm validate">
+      </div>
+  
+      <div class="md-form form-sm mb-5">
+        <i class="fas fa-lock prefix"></i>
+        <label data-error="wrong" data-success="right" for="modalLRInput13">Contraseña</label>
+        <input type="password" id="modalLRInput13" class="form-control form-control-sm validate">
+      </div>
+  
+      <div class="md-form form-sm mb-4">
+        <i class="fas fa-lock prefix"></i>
+        <label data-error="wrong" data-success="right" for="modalLRInput14">Repetir contraseña</label>
+        <input type="password" id="modalLRInput14" class="form-control form-control-sm validate">
+      </div>
+  
+      <div class="text-center form-sm mt-2">
+        <button class="btn btn-dark">Unete<i class="fas fa-sign-in ml-1"></i></button>
+      </div>
+  
+    </div>
+    <!--Footer-->
+    <div class="modal-footer">
+      <div class="options text-right mx-5">
+        <p class="pt-1">¿Ya tienes una cuenta? <a  data-bs-toggle="modal" data-bs-target="#cuotas"  data-bs-dismiss="modal" class="blue-text"> Inicia sesión</a></p>
+      </div>
+      <button type="button" class="btn btn-dark" data-bs-dismiss="modal"> Cerrar</button>
+    </div>
+  
+  
+  
+  </div>
+  </div>
+  </div>
+  </div>
+
+             <form class="d-flex">
+               <input class="form-control  me-2" type="search" placeholder="buscar producto.." aria-label="Search">
+               <button class="btn btn-outline-mute"><img src="https://cdn-icons.flaticon.com/png/512/795/premium/795724.png?token=exp=1636756145~hmac=9683ec8e0ba82c791209db3384af38f9" width="20"  height="20" alt="lupa" title="lupa"></button>
+             </form>
+             </div>
+        </div>
+      </nav>
+    </header>
+
+
+
+    <!-- container -->
+
+    <div class="container  main-container">
+        <!-- ver producto cuando esta en tamaño md -->
+        
+        <!-- ul -->
+        <div class="row">
+          <div class="col-5">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb mt-3">
+            <li class="breadcrumb-item text-initial"><a href="#">Entrega</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Pago</li>
+          </ol>
+        </nav>
+        </div>
+        <div class="col-4 offset-3   text-center mt-3">
+          <img src="https://d1zxmlch3z83cq.cloudfront.net/production/2.1.230/_next/server/static/img/safe-shopping.svg" alt="" class=" rounded-3 secuirityimg" height="30">
+          <span class="fz">COMPRA SEGURA
+            100% PROTEGIDO</span>
+        </div>
+      </div>
+      
+        <!-- contenido -->
+        <div class="row mt-xxl-5 mt-xl-5 mt-md-4 mt-sm-4 ">
+
+
+          <div class="col-7">
+          <h2 style="font-family:Arial, Helvetica, sans-serif ;" class="mt-3">DATOS DE CONTACTO</h2>
+          <form>
+            <div class="mt-3">
+              <input type="email" class="form-control" id="datosemail" placeholder="Email" value="" required>
+            </div>
+            <div class="form-check  mt-3 mb-5">
+              <input class="form-check-input bg-dark" type="checkbox" value="" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Quiero recibir ofertas y novedades por email
+              </label>
+            </div>
+
+
+            <h2 style="font-family: Arial, Helvetica, sans-serif;">ENTREGA</h2>
+              <div class="form-group mt-3 mb-5">
+                <label for="text">Pais  <span class="h6 fz mx-3 text-danger">* Por el momento solo realizamos envios en toda la Argentina </span> </label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>Argentina</option>
+                </select>
+                
+              </div>
+
+            <div class="form-group ">
+              <input type="tel" class="form-control mb-2" id="datosemail" placeholder="Codigo Postal" value="" required>
+              <span class="form-control-help">
+                <a class="translate-link text-small text-secondary" href="https://www.correoargentino.com.ar/formularios/cpa" target="_blank" rel="noopener noreferrer">Encontrá tu CP</a>
+              </span>
+            </div>
+
+            <button class="btn btn-dark mt-5 " type="submit">CONTINUAR</button>
+          </form>
+        </div>
+
+
+        <div class="col-5">
+          <hr>
+
+
+          <div class="row">
+            <div class="col-xxl-4 col-xl-4 col-lg-4  col-md-5 col-sm-7 ">
+              <input class="form-check-input mt-4 mx-2" type="checkbox" value="" id="flexCheckDefault">
+              <img src="capturas de pantalla/bermuda-champion-1-14.jpg" alt="" height="75">
+            </div>
+
+            <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-4 col-sm-3 mt-xxl-4 mt-xl-4 mt-lg-4 mt-md-none mt-sm-none">
+              <span>Bermuda Gris (38) × 1</span>
+            </div>
+
+            <div class="col-3  mt-xxl-4 mt-xl-4 mt-lg-4 mt-md-4 mt-sm-none ">
+              <h6>$1.000</h6>
+            </div>
+
+          </div>
+          <hr>
+
+
+          <div class="row">
+
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-5 col-sm-7">
+              <input class="form-check-input mt-4 mx-2" type="checkbox" value="" id="flexCheckDefault">
+              <img src="capturas de pantalla/bermuda-champion-2-14.jpg" alt="" height="75">
+            </div>
+
+            <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-4 col-sm-3 mt-xxl-4 mt-xl-4 mt-lg-4 mt-md-none mt-sm-none">
+              <span>Bermuda Negra (38) × 1</span>
+            </div>
+            <div class="col-3  mt-xxl-4 mt-xl-4 mt-lg-4 mt-md-4 mt-sm-none">
+              <h6>$1.000</h6>
+
+            </div>
+
+          </div>
+          <hr>
+
+
+          <div class="row">
+
+            <div class="col-9 col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-8">
+              <span>subtotal</span>
+            </div>
+            <div class="col-3 s-error">
+              <span>$1.000</span>
+            </div>
+          </div>
+          <hr>
+
+
+          <div class="row">
+
+            <div class=" col-xxl-7 col-xl-7 col-lg-7 col-md-6 col-sm-5">
+              <h2>TOTAL</h2>
+            </div>
+            <div class="col-3">
+              <h2>$1.000,00</h2>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(235, 235, 235); 
+} 
+.crowimg{
+    width: 30px;
+    height: 30px;
+}
+.a{
+    margin-right: 15px;
+}
+.googleimg{
+    border: solid 2px rgb(221, 221, 221);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+}
+.facebookimg{
+    border: solid 2px rgba(221, 221, 221, 0);
+    background-color: rgb(56, 98, 204);
+    border-radius: 5px;
+}
+.c{
+    text-decoration: none;
+}
+
+
+.tdn{
+    text-decoration: none;
+}
+
+.fz{
+    font-size: 11px;
+}
+
+@media screen and (max-width:577px){
+    .s-error{
+        margin-left: -20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

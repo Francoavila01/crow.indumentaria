@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(235, 235, 235); 
+} 
+.header{
+    padding-top:7px;
+    height: 46px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.crowimg{
+    width: 30px;
+    height: 30px;
+}
+.a{
+    text-decoration: none;
+}
+.googleimg{
+    border: solid 2px rgb(221, 221, 221);
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+}
+.facebookimg{
+    border: solid 2px rgba(221, 221, 221, 0);
+    background-color: rgb(56, 98, 204);
+    border-radius: 5px;
+}
+.conteiner-error{
+    background-color: #ffffff; 
+    border-radius: 5px;
+    text-align: center; 
+    padding: 20px;
+    box-shadow: 5px 5px 10px;
+    line-height: 2;
+    
+    /* /* -webkit-box-reflect: below 20px linear-gradient(transparent, */
+}
+.b{
+    height: 50px;
+    width: 50px;
+}
+.c{
+   margin-top: 285px;
+}
+@media screen and (max-width:425px){
+    .c{
+        margin-top: 150px;
+    }
+}

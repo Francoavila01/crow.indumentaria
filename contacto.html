@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>indumentariacrow.com.ar</title>
+    <!-- css bootstrapt -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
+    <!-- css -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <script>
+      window.scroll({
+      top: 2500, 
+      left: 0, 
+      behavior: 'smooth'
+     });
+    </script>
+  
+</head>
+<body>
+
+
+    <header>
+     <nav class="navbar navbar-expand-lg navbar-light bg-light  d-flex">
+        <div class="container-fluid ">
+            <img src="https://i.pinimg.com/originals/a7/57/df/a757dfd600c04419f45c3252bd4d0cf4.jpg" class="crowimg a" alt="">
+          <a class="navbar-brand">indumentaria.crow</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 200px;">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="productos.html">PRODUCTOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contacto.html">CONTACTOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="politicas.html">POLITICAS</a>
+              </li>
+             </ul>
+              <a  href="carrito.html" class="a"><img src="https://cdn-icons-png.flaticon.com/512/1170/1170627.png" alt="carritoimg" width="23" height="23" title="carrito"></a>
+            
+              
+
+              <button type="button" class="btn btn-light mx-1" data-bs-toggle="modal" data-bs-target="#cuotas">
+                <img src="https://cdn-icons.flaticon.com/png/512/3171/premium/3171065.png?token=exp=1636753569~hmac=252753b4328fd90c339892012a5e84b3" alt="usuarioimg"  width="23" height="23">
+             </button>
+            
+            
+            
+                 <!--Modal: Login / Register Form-->
+            <!-- MODAL 1-->
+            <div class="modal fade" id="cuotas" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-scrollable   ">
+              <div class="modal-content">
+              
+              
+              <ul class="nav nav-tabs md-tabs tabs-2 light-blue darken-3" role="tablist">
+                <li class="nav-item">
+                  <a class="btn border textmin" data-bs-target="#" data-bs-toggle="modal" ></i>
+                   Iniciar sesion </a>
+                </li>
+                <li class="nav-item">
+                  <a class="btn text-primary textmin " data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal"><i class="fas fa-user-plus mr-1"></i>
+                    Registrate</a>
+                </li>
+              
+              </ul>
+              
+              
+                 <!-- Tab panels -->
+                 <div class="tab-content">
+                  <!--Panel 7-->
+                  <div class="tab-pane fade in show active" id="panel7" role="tabpanel">
+              
+                    <!--Body-->
+                    <div class="modal-body mb-1">
+                      <div class="md-form form-sm mb-5">
+                        <i class="fas fa-envelope prefix"></i>
+                        <label data-error="wrong" data-success="right" for="modalLRInput10">correo electronico</label>
+                        <input type="email" id="modalLRInput10" class="form-control form-control-sm validate">
+                       
+                      </div>
+              
+                      <div class="md-form form-sm mb-4 ">
+                        <i class="fas fa-lock prefix"></i>
+                        <label data-error="wrong" data-success="right" for="modalLRInput11">contraseña</label>
+                        <input type="password" id="modalLRInput11" class="form-control form-control-sm validate">
+                        
+                      </div>
+                      <div class="text-center mt-2">
+                        <button class="btn btn-dark">Iniciar<i class="fas fa-sign-in ml-1"></i></button>
+                      </div>
+                      <div class="text-center my-3">
+                        <input type="checkbox" name="noCerrarSesion" value="true" checked="checked" data-bind="checked:noCerrarSesion">
+                        <span data-bind="i18nText:'ventana_login.no_cerrar_sesion'">No cerrar sesión</span>
+                        <br>
+                        <button class="mt-3 googleimg">
+                            <img src="https://cdn-icons-png.flaticon.com/512/281/281764.png" height="30" width="30" alt="">
+                            <a class="text-dark c" href="">iniciar sesion</a>
+                        </button>
+                        <button class="facebookimg">
+                            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384053.png" height="30" width="30" alt="">
+                            <a class="text-dark c" href="">iniciar sesion</a>
+                        </button>
+                      </div>
+                    </div>
+                    <!--Footer-->
+                    <div class="modal-footer">
+                      <div class="col-9 options text-center text-md-right mt-1">
+                        <p>¿No eres miembro? <a data-bs-toggle="modal" data-bs-target="#exampleModalToggle2" data-bs-dismiss="modal" class="blue-text">Únete</a></p>
+                        <p>¿Olvidó <span> <a href="#" class="blue-text">contraseña</a></span>?</p>
+                      </div>
+                      <button type="button" class="btn btn-dark" data-bs-dismiss="modal"> Cerrar</button>
+                    </div>
+              
+                  </div>
+              
+                </div>
+              
+                </div>
+              
+              
+              
+              
+              
+              
+              
+              </div>
+              </div>
+              
+              <!-- MODAL 2 -->
+              <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+              <div class="modal-dialog ">
+              <div class="modal-content">
+              <div class="modal-content">
+              
+              
+                <ul class="nav nav-tabs md-tabs tabs-2 light-blue darken-3" role="tablist">
+                  <li class="nav-item">
+                    <a class="btn text-primary textmin" data-bs-target="#cuotas" data-bs-toggle="modal"data-bs-dismiss="modal" ></i>
+                      Iniciar sesion</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="btn text-dark border textmin" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"><i class="fas fa-user-plus mr-1"></i>
+                      Registrate</a>
+                  </li>
+            
+                </ul>
+              
+              
+                <div class="modal-body">
+                  <div class="md-form form-sm mb-5">
+                    <i class="fas fa-envelope prefix"></i>
+                    <label data-error="wrong" data-success="right" for="modalLRInput12">Email</label>
+                    <input type="email" id="modalLRInput12" class="form-control form-control-sm validate">
+                  </div>
+              
+                  <div class="md-form form-sm mb-5">
+                    <i class="fas fa-lock prefix"></i>
+                    <label data-error="wrong" data-success="right" for="modalLRInput13">Contraseña</label>
+                    <input type="password" id="modalLRInput13" class="form-control form-control-sm validate">
+                  </div>
+              
+                  <div class="md-form form-sm mb-4">
+                    <i class="fas fa-lock prefix"></i>
+                    <label data-error="wrong" data-success="right" for="modalLRInput14">Repetir contraseña</label>
+                    <input type="password" id="modalLRInput14" class="form-control form-control-sm validate">
+                  </div>
+              
+                  <div class="text-center form-sm mt-2">
+                    <button class="btn btn-dark">Unete<i class="fas fa-sign-in ml-1"></i></button>
+                  </div>
+              
+                </div>
+                <!--Footer-->
+                <div class="modal-footer">
+                  <div class="options text-right mx-5">
+                    <p class="pt-1">¿Ya tienes una cuenta? <a  data-bs-toggle="modal" data-bs-target="#cuotas"  data-bs-dismiss="modal" class="blue-text"> Inicia sesión</a></p>
+                  </div>
+                  <button type="button" class="btn btn-dark" data-bs-dismiss="modal"> Cerrar</button>
+                </div>
+              
+              
+              
+              </div>
+              </div>
+              </div>
+              </div>
+              
+             <form class="d-flex">
+               <input class="form-control me-2" type="search" placeholder="buscar producto.." aria-label="Search">
+               <button class="btn btn-outline-mute"><img src="https://cdn-icons.flaticon.com/png/512/795/premium/795724.png?token=exp=1636756145~hmac=9683ec8e0ba82c791209db3384af38f9" width="20"  height="20" alt="lupa"></button>
+             </form>
+             </div>
+        </div>
+      </nav>
+    </header>
+
+
+
+    <!-- contacto -->
+
+    <div class="container">
+      <!--Section: Contact v.2-->
+      <section class="mb-4">
+      
+        <!--Section heading-->
+        <h2 class="h1-responsive font-weight-bold text-center mt-4">CONTACTO</h2>
+        <!--Section description-->
+        <p class="text-center w-responsive mx-auto mb-sm-4">¡ENVIANOS UN MAIL CON TU CONSULTA!</p>
+      
+        <div class="row d">
+      
+            <!--Grid column-->
+            <div class="col-xxl-4 col-md-4 mb-xxl-3 mb-xl-3 mb-md-0 mb-sm-3">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+      
+                    <div class="row">
+      
+                        <div class="col-md-10 mx-md-5 mx-sm-4">
+                            <div class="md-form mb-0 e">
+                              <label for="name" class="">Nombre</label>
+                                <input type="text"class="form-control btn-light border-dark ">
+                            </div>
+                        </div>
+      
+                       
+      
+                    </div>
+      
+                    <div class="row">
+                      <div class="col-md-10  mx-md-5 mx-sm-4">
+                        <div class="md-form mb-0 e">
+                          <label for="name" class="">Email</label>
+                            <input type="text"class="form-control btn-light border-dark ">
+                        </div>
+                    </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-10 mx-md-5 mx-sm-4">
+                            <div class="md-form mb-0 e">
+                              <label for="subject" class="">Numero (opcional)</label>
+                                <input type="text" id="subject" name="subject" class="form-control btn-light border-dark ">
+                            </div>
+                        </div>
+                    </div>
+      
+                    <div class="row ">
+      
+                        <div class="col-md-10 mx-md-5 mx-sm-4">
+      
+                            <div class="md-form e">
+                              <label for="message">Mensaje (opcional)</label>
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea btn-light border-dark "></textarea>
+                            </div>
+      
+                        </div>
+                    </div>
+      
+                </form>
+      
+                <div class="text-center text-md-left col-12 my-3 mb-sm-0">
+                    <a class="btn btn-dark" onclick="document.getElementById('contact-form').submit();">Enviar</a>
+                </div>
+                <div class="status"></div>
+            </div>
+      
+      
+            <!--Grid column-->
+            <div class="col-md-3 mx-xxl-0 mx-sm-4 text-center ">
+                <ul class="list-unstyled ">
+                    <li  class="my-xxl-4 my-xl-4 my-md-4 my-sm-1"><i class="fas fa-map-marker-alt fa-2x"></i>
+                      <img src="https://cdn-icons-png.flaticon.com/512/1250/1250663.png" alt="" width="20" height="20">
+                      <a class="text-dark" href="" target="_blank">indu.crow@gmail.com</a>
+                    </li>
+      
+                    <li class="my-xxl-5 my-xl-5 my-md-5 my-sm-1"><i class="fas fa-phone mt-4 fa-2x "></i>
+                      <img src="https://cdn-icons-png.flaticon.com/512/535/535239.png" alt="" width="20" height="20">
+                      <a class="text-dark" href="https://goo.gl/maps/ZKVxZsmQ2ybaXJGE7" target="_blank">Vicente López , Buenos Aires</a>
+                    </li>
+      
+                    <li class="my-xxl-5 my-xl-5 my-md-5 my-sm-1"><i class="fas fa-envelope mt-4 fa-2x my-5"></i>
+                      <img src="https://cdn-icons-png.flaticon.com/512/1384/1384023.png" alt="" width="19" height="19">
+                      <a class="text-dark" href="" target="_blank">+ 11 6216-3953</a>
+                    </li>
+                    
+                    <li class="my-xxl-5 my-xl-5 my-md-5 my-sm-1"><i class="fas fa-envelope mt-4 fa-2x my-5"></i>
+                      <img src="https://cdn-icons-png.flaticon.com/512/747/747393.png" alt="" width="19" height="19">
+                      <a class="text-dark" href="https://www.instagram.com/indumentaria.crow/?hl=es" target="_blank"> indumentaria.crow</a>
+                  </li>
+                </ul>
+                
+            </div>
+      
+      
+            <!--Grid column-->
+            <div class="col-md-3 mx-xxl-5 mx-xl-3 mx-md-2  text-center">
+            
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26297.07524005671!2d-58.49052450230262!3d-34.52482260070226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6a6386ba5c9%3A0xb8039ed75861da4d!2sVicente%20L%C3%B3pez%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1639256066296!5m2!1ses-419!2sar" width="250" height="290" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              
+          </div>
+        </div>
+      
+      </section>
+      </div>
+      
+   
+
+
+
+
+   <!-- Footer -->
+
+   <footer class="page-footer font-small mdb-color pt-4 text-light">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+ 
+     <!-- Footer links -->
+     <div class="row text-center text-md-left mt-3 pb-3">
+ 
+       <!-- Grid column -->
+       <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+         <h6 class="text-uppercase mb-4 font-weight-bold">CROW</h6>
+         <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+           consectetur
+           adipisicing elit.</p>
+       </div>
+       <!-- Grid column -->
+ 
+       <hr class="w-100 clearfix d-md-none">
+ 
+       <!-- Grid column -->
+       <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+         <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+         <p>
+           <a href="#!" class="text-light c">NIKE</a>
+         </p>
+         <p>
+           <a href="#!" class="text-light c">ADIDAS</a>
+         </p>
+         <p>
+           <a href="#!" class="text-light c">TOMMY HILFIGER</a>
+         </p>
+         <p>
+           <a href="#!" class="text-light c">FEEL GOOD</a>
+         </p>
+       </div>
+       <!-- Grid column -->
+ 
+       <hr class="w-100 clearfix d-md-none">
+ 
+       <!-- Grid column -->
+       <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+         <h6 class="text-uppercase mb-4 font-weight-bold">+informacion
+         </h6>
+         <p>
+           <a href="#!" class="text-light c">Su cuenta</a>
+         </p>
+         <p>
+           <a href="#!" class="text-light c">Conviértase en afiliado</a>
+         </p>
+         <p>
+           <a href="#!" class="text-light c">Tarifas de envío</a>
+         </p>
+         <p>
+           <a href="#!" class="text-light c">Ayuda</a>
+         </p>
+       </div>
+ 
+       <!-- Grid column -->
+       <hr class="w-100 clearfix d-md-none">
+ 
+       <!-- Grid column -->
+       <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+         <h6 class="text-uppercase mb-4 font-weight-bold">Contactos</h6>
+         <p>
+           <img src="https://cdn-icons-png.flaticon.com/512/1250/1250663.png" alt="" width="25" height="25">
+           <a href="#" class="text-light c" target="_blank">indu.crow@gmail.com</a>
+         </p>
+         <p>
+         <p>
+           <img src="https://cdn-icons-png.flaticon.com/512/535/535239.png" alt="" width="25" height="25">
+           <a href="https://goo.gl/maps/ZKVxZsmQ2ybaXJGE7" class="text-light c" target="_blank">Vicente López , Buenos Aires</a>
+         </p>
+           <img src="https://cdn-icons-png.flaticon.com/512/1384/1384023.png" alt="" width="23" height="23">
+           <a href="#" class="text-light c" target="_blank">+ 11 6216-3953</a>
+         </p>
+         <p>
+           <img src="https://cdn-icons-png.flaticon.com/512/747/747393.png" alt="" width="23" height="23">
+           <a href="https://www.instagram.com/indumentaria.crow/?hl=es" class="text-light c" target="_blank">indumentaria.crow</a> 
+         </p>
+       </div>
+     </div>
+ 
+     <hr>
+ 
+     <!-- Grid row -->
+     <div class="row d-flex align-items-center">
+ 
+       <div class="col-12 pt-4">
+           <img src="https://indumentariacaballito.com.ar/img/sslcertcas/ssl.png" alt="">
+           <p class="pt-3">Powered by <a href="#">Donweb</a></p>
+       </div>
+     </div>
+ 
+     </div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
